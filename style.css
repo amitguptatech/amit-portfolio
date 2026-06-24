@@ -1,1 +1,10 @@
-body{background:#F4F9FF;color:#1E293B;font-family:Segoe UI,sans-serif}.hero{text-align:center;padding:60px}.profile-img{width:220px;height:220px;border-radius:50%;border:5px solid #2563EB}.btn{padding:10px 20px;background:#2563EB;color:#fff;text-decoration:none;margin:5px;border-radius:6px}section{padding:40px}
+body{font-family:Arial,sans-serif;margin:0;background:#f4f6fa}
+nav{background:#0f172a;color:white;padding:15px;display:flex;justify-content:space-between}
+nav ul{display:flex;gap:15px;list-style:none}
+nav a{color:white;text-decoration:none}
+.hero{padding:80px 20px;text-align:center;background:#1e293b;color:white}
+.profile{width:180px;height:180px;border-radius:50%;object-fit:cover;border:4px solid white}
+section{padding:50px 10%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:15px}
+.card{background:white;padding:20px;text-align:center;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+footer{text-align:center;padding:20px;background:#0f172a;color:white}
