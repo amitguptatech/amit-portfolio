@@ -1,20 +1,3 @@
-
-st.header("📬 Let's Connect")
-with st.form("contact_form"):
-    name = st.text_input("Name")
-    email = st.text_input("Email")
-    message = st.text_area("Message")
-    submitted = st.form_submit_button("Send Message")
-    if submitted:
-        st.success("Thank you for reaching out!")
-
-st.header("📞 Contact")
-st.write("Email: gamit3175@gmail.com")
-st.write("LinkedIn: linkedin.com/in/amit-gupta-aa0b41203")
-st.write("Location: Lucknow, Uttar Pradesh, India")
-
-
-
 import streamlit as st
 from pathlib import Path
 
