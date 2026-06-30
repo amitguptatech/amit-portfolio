@@ -250,7 +250,7 @@ with left:
 
     st.markdown("<div class='profile-img'>",unsafe_allow_html=True)
 
-    st.image("photo.jpg",width=260)
+    st.image("profile.jpg",width=260)
 
     st.markdown("</div>",unsafe_allow_html=True)
 
