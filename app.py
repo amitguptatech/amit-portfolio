@@ -1,5 +1,4 @@
 import streamlit as st
-import base64
 from pathlib import Path
 
 # ---------------------------------------------------
@@ -373,10 +372,9 @@ with c4:
 # ABOUT
 # ---------------------------------------------------
 
-st.markdown("<div class='section-title'>About Me</div>",unsafe_allow_html=True)
+st.markdown("<div class='section-title'>About Me</div>", unsafe_allow_html=True)
 
 st.markdown("""
-
 <div class='about-card'>
 
 I am a Technical Lead with hands-on experience in Java, Spring Boot, AWS, DevOps, Linux, Docker, Kubernetes, CI/CD, and Microservices. Currently working at Tata Consultancy Services (TCS), I design and develop secure, scalable enterprise applications capable of processing thousands of transactions per second.
@@ -384,11 +382,7 @@ I am a Technical Lead with hands-on experience in Java, Spring Boot, AWS, DevOps
 I enjoy solving complex backend challenges, mentoring engineers, optimizing cloud infrastructure, and delivering high-quality software solutions. My focus is on building reliable systems with performance, security, and maintainability at the core.
 
 </div>
-
-""",unsafe_allow_html=True)import streamlit as st
-import base64
-from pathlib import Path
-
+""", unsafe_allow_html=True)
 # ---------------------------------------------------
 # PAGE CONFIG
 # ---------------------------------------------------
