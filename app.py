@@ -1194,14 +1194,10 @@ with strength2:
 
 # ============================================================
 # CAREER GOALS
-# ============================================================
-
-st.markdown("<div class='section-title'>Career Vision</div>", unsafe_allow_html=True)
-
+# ===========================================================
 st.info("""
-
-My goal is to become a Cloud Solution
-
+My goal is to become a Cloud Solution Architect specializing in cloud-native systems, DevOps automation, and scalable backend architectures.
+""")
 # ============================================================
 # CONTACT
 # ============================================================
