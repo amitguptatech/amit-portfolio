@@ -17,8 +17,10 @@ st.set_page_config(
 # ---------------------------------------------------
 
 resume_data = None
-if Path("resume.pdf").exists():
-    with open("resume.pdf", "rb") as pdf_file:
+if Path("AMIT_JAVA_DEV_RESUME.pdf
+").exists():
+    with open("AMIT_JAVA_DEV_RESUME.pdf
+", "rb") as pdf_file:
         resume_data = pdf_file.read()
 
 # ---------------------------------------------------
