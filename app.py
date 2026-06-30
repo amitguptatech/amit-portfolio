@@ -1607,7 +1607,7 @@ with contact1:
 
 ## Let's Build Something Amazing
 
-I'm always interested in discussing:
+"I'm always interested in discussing:"
 
 ✔ Technical Lead Opportunities
 
