@@ -265,21 +265,6 @@ Experienced Software Engineer with expertise in <b>Java</b>, <b>Spring Boot</b>,
 </div>
 
 """,unsafe_allow_html=True)
-
-    st.markdown("""
-
-<a class="social-btn linkedin" href="https://www.linkedin.com/in/amit-gupta-aa0b41203" target="_blank">LinkedIn</a>
-
-<a class="social-btn github" href="https://github.com/amitguptatech" target="_blank">GitHub</a>
-
-<a class="social-btn resume" href="mailto:gamit3175@gmail.com">Email</a>
-
-""",unsafe_allow_html=True)
-
-    st.markdown("</div>",unsafe_allow_html=True)
-
-st.write("")
-
 # ---------------------------------------------------
 # HIGHLIGHTS
 # ---------------------------------------------------
@@ -602,9 +587,9 @@ st.markdown("""
 
 <div class='edu-card'>
 
-<h3>Master of Science (Agriculture)</h3>
+<h3>Bachelor of Technology(B.TECH )</h3>
 
-<b>Specialization:</b> Agriculture
+<b>Specialization:</b> Electronic & Communication Engineering
 
 </div>
 
@@ -614,9 +599,9 @@ st.markdown("""
 
 <div class='edu-card'>
 
-<h3>Bachelor of Science (Agriculture)</h3>
+<h3>Intermediate</h3>
 
-<b>Specialization:</b> Agriculture
+<b>Specialization:</b> Science
 
 </div>
 
@@ -638,7 +623,7 @@ with c1:
 
 🏆 AWS Cloud Practitioner
 
-<br><br>
+<br>
 
 ✔ Cloud Fundamentals
 
@@ -662,7 +647,7 @@ with c2:
 
 🏆 DevOps & Linux
 
-<br><br>
+<br>
 
 ✔ Docker
 
