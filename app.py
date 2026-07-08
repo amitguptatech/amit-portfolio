@@ -801,17 +801,6 @@ Designed and developed secure enterprise banking applications capable of process
 
 <span class="tech">Docker</span>
 
-<br>
-
-<a class="github-btn"
-
-href="https://github.com/amitguptatech"
-
-target="_blank">
-
-View GitHub
-
-</a>
 
 </div>
 
@@ -846,18 +835,6 @@ Developed a cloud-based image upload application deployed on AWS EC2 with secure
 <span class="tech">HTML</span>
 
 <span class="tech">CSS</span>
-
-<br>
-
-<a class="github-btn"
-
-href="https://github.com/amitguptatech"
-
-target="_blank">
-
-View GitHub
-
-</a>
 
 </div>
 
@@ -1033,8 +1010,6 @@ href="https://github.com/amitguptatech"
 target="_blank">
 
 Visit GitHub Profile
-
-</a>
 
 </div>
 """, unsafe_allow_html=True)
@@ -1217,8 +1192,6 @@ with contact2:
 
     st.info("""
 ### 📧 Email
-
-gamit3175@gmail.com
 """)
 
     st.info("""
@@ -1236,7 +1209,7 @@ github.com/amitguptatech
     st.info("""
 ### 📍 Location
 
-India
+Lucknow Utter Pradesh India
 """)
 
 # ============================================================
