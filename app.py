@@ -174,30 +174,6 @@ transition:.3s;
 
 }
 
-.linkedin{
-
-background:#0A66C2;
-
-color:white !important;
-
-}
-
-.github{
-
-background:#24292e;
-
-color:white !important;
-
-}
-
-.resume{
-
-background:#2563EB;
-
-color:white !important;
-
-}
-
 .social-btn:hover{
 
 transform:translateY(-4px);
@@ -1294,22 +1270,9 @@ with q3:
 
 # ============================================================
 # DOWNLOAD RESUME
-# ============================================================
+# ===========================================================
 
-st.markdown("<div class='section-title'>Resume</div>", unsafe_allow_html=True)
-
-if resume_data:
-
-    st.download_button(
-        label="📄 Download My Resume",
-        data=resume_data,
-        file_name="Amit_Gupta_Resume.pdf",
-        mime="application/pdf",
-        use_container_width=True,
-        type="primary"
-    )
-
-# ============================================================
+# ===========================================================
 # CURRENT FOCUS
 # ============================================================
 
