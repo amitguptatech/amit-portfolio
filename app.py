@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 from pathlib import Path
 
 # ---------------------------------------------------
@@ -236,12 +237,22 @@ left,right = st.columns([1,2])
 
 with left:
 
-    st.markdown("<div class='profile-img'>",unsafe_allow_html=True)
+with open("profile.jpg", "rb") as img_file:
+    img = base64.b64encode(img_file.read()).decode()
 
-    st.image("profile.jpg",width=260)
-
-    st.markdown("</div>",unsafe_allow_html=True)
-
+st.markdown(f"""
+<div style="display:flex;justify-content:center;">
+    <img src="data:image/jpeg;base64,{img}"
+         style="
+             width:260px;
+             height:260px;
+             border-radius:50%;
+             object-fit:cover;
+             border:6px solid #38BDF8;
+             box-shadow:0 0 35px rgba(56,189,248,.6);
+         ">
+</div>
+""", unsafe_allow_html=True)
     if resume_data:
 
         st.download_button(
