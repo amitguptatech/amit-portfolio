@@ -211,7 +211,19 @@ line-height:1.9;
 color:#d1d5db;
 
 }
+/* Download Resume Button Blue */
+div.stDownloadButton > button {
+    background-color: #38BDF8 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+}
 
+div.stDownloadButton > button:hover {
+    background-color: #0EA5E9 !important;
+    color: white !important;
+}
 </style>
 
 """, unsafe_allow_html=True)
@@ -242,9 +254,7 @@ with left:
 
             mime="application/pdf",
 
-            use_container_width=True,
-
-            type="primary"
+            use_container_width=True", 
 
         )
 
