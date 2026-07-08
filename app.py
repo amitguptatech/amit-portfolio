@@ -1,5 +1,5 @@
-import streamlit as st
 import base64
+import streamlit as st
 from pathlib import Path
 
 # ---------------------------------------------------
@@ -231,41 +231,37 @@ div.stDownloadButton > button:hover {
 
 # ---------------------------------------------------
 # HERO SECTION
-# ---------------------------------------------------
+# --------------------------------------------------
+left, right = st.columns([1,2])
 
-left,right = st.columns([1,2])
+with left:
 
-with open("profile.jpg", "rb") as img_file:
-    img = base64.b64encode(img_file.read()).decode()
+    with open("profile.jpg", "rb") as img_file:
+        img = base64.b64encode(img_file.read()).decode()
 
-st.markdown(f"""
-<div style="display:flex;justify-content:center;">
-    <img src="data:image/jpeg;base64,{img}"
-         style="
-             width:260px;
-             height:260px;
-             border-radius:50%;
-             object-fit:cover;
-             border:6px solid #38BDF8;
-             box-shadow:0 0 35px rgba(56,189,248,.6);
-         ">
-</div>
-""", unsafe_allow_html=True)
+    st.markdown(f"""
+    <div style="display:flex;justify-content:center;">
+        <img src="data:image/jpeg;base64,{img}"
+             style="
+                 width:260px;
+                 height:260px;
+                 border-radius:50%;
+                 object-fit:cover;
+                 border:6px solid #38BDF8;
+                 box-shadow:0 0 35px rgba(56,189,248,.6);
+             ">
+    </div>
+    """, unsafe_allow_html=True)
+
     if resume_data:
-
         st.download_button(
-
             "📄 Download Resume",
-
             resume_data,
-
             file_name="Amit_Gupta_Resume.pdf",
-
             mime="application/pdf",
-
-            use_container_width=True, 
-
+            use_container_width=True
         )
+
 
 with right:
 
