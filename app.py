@@ -247,6 +247,7 @@ with left:
                  height:260px;
                  border-radius:50%;
                  object-fit:cover;
+                 object-position:center top;
                  border:6px solid #38BDF8;
                  box-shadow:0 0 35px rgba(56,189,248,.6);
              ">
