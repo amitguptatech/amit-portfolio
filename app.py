@@ -235,8 +235,6 @@ div.stDownloadButton > button:hover {
 
 left,right = st.columns([1,2])
 
-with left:
-
 with open("profile.jpg", "rb") as img_file:
     img = base64.b64encode(img_file.read()).decode()
 
