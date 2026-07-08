@@ -1336,49 +1336,7 @@ I'd be delighted to connect.
 
 # ============================================================
 # FOOTER
-# ============================================================
-
-st.markdown("---")
-
-st.markdown(
-"""
-<div style="text-align:center;color:#94A3B8;padding:25px">
-
-<h3 style="color:#38BDF8;">
-Amit Gupta
-</h3>
-
-Technical Lead | Java Backend Developer | AWS Cloud | DevOps
-
-<br><br>
-
-<a href="https://linkedin.com/in/amit-gupta-aa0b41203"
-target="_blank"
-style="text-decoration:none;color:#38BDF8;font-weight:bold;">
-LinkedIn
-</a>
-
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-
-<a href="https://github.com/amitguptatech/amit-portfolio"
-target="_blank"
-style="text-decoration:none;color:#38BDF8;font-weight:bold;">
-GitHub
-</a>
-
-<br><br>
-
-© 2026 Amit Gupta
-
-<br>
-
-Built using ❤️ with Streamlit & Python
-
-</div>
-
-""",
-unsafe_allow_html=True)
-
+# ==========================================================
 # ============================================================
 # END OF APP
 # ============================================================
